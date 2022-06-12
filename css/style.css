@@ -1,5 +1,20 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.title{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#F1F1F1;
+}
 .container{
     max-width: 1440px;
+}
+.home{
+    font-size:18px;
 }
 .navbar{
     max-height: 64px;
@@ -12,6 +27,9 @@
 }
 .bg-light{
     background-color: #FAFAFA;
+}
+.nav-link{
+    font-size: 14px;
 }
 .image>li>a> p{
     text-align: center;
@@ -34,4 +52,30 @@ p {
     position: relative;
     display: block;
     padding: 10px 15px;
+}
+.main{
+    padding: 0px;
+    margin: 0px;
+    background-color: #F5F5F5;
+    /* width: 1080px; */
+}
+.col{
+    padding: 32px 0 0 32px;
+    height: 672px;
+}
+.sticky-top{
+    padding: 136px ;
+}
+.post{
+
+    background-color: #FFFFFF;
+    padding: 56px 0 0 32px;
+}
+p.user{
+    font-size: 14px;
+    line-height: 16px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-image: url("images/commented.png") no-repeat;
 }
