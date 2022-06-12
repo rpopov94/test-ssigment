@@ -65,7 +65,7 @@ p {
     color: #505050;
 }
 .posImage{
-    padding: 56px 0 0 32px;
+    padding: 56px 32px 0 32px;
 }
 p.user{
     font-size: 14px;
@@ -91,7 +91,25 @@ blockquote.bg-gray {
 [class^="social"]{
     padding-left: 10px;
 }
-
+.card{
+    width: 18rem;
+    margin-top: 32px;
+}
+.social{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+#circle {
+    width: 25px;
+    height: 25px;
+    -webkit-border-radius: 19.38px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #505050;
+    color: #FFFFFF;
+}
 
 
 
