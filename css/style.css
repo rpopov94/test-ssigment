@@ -1,8 +1,11 @@
 body{
     font-family: 'Roboto';
     font-style: normal;
+    background-color: #F5F5F5;
 }
-
+a{
+    padding-left: 12px;
+}
 .title{
     position: relative;
     font-style: normal;
@@ -53,22 +56,15 @@ p {
     display: block;
     padding: 10px 15px;
 }
-.main{
-    padding: 0px;
-    margin: 0px;
-    background-color: #F5F5F5;
-    /* width: 1080px; */
-}
-.col{
+.wrapper{
     padding: 32px 0 0 32px;
-    height: 672px;
-}
-.sticky-top{
-    padding: 136px ;
+    background-color: #F5F5F5;
 }
 .post{
-
-    background-color: #FFFFFF;
+    background-color: #ffffff;
+    color: #505050;
+}
+.posImage{
     padding: 56px 0 0 32px;
 }
 p.user{
@@ -77,5 +73,25 @@ p.user{
     flex: none;
     order: 1;
     flex-grow: 0;
-    background-image: url("images/commented.png") no-repeat;
 }
+blockquote.bg-gray {
+    border-left: 2px solid #D3D8DE;
+    color:#505050;
+    padding-left: 32px;
+}
+.description{
+    padding-left: 32px;
+}
+.text{
+    padding-left: 12px;
+}
+.list-inline-item{
+    padding-right: 73px;
+}
+[class^="social"]{
+    padding-left: 10px;
+}
+
+
+
+
