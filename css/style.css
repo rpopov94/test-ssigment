@@ -95,6 +95,20 @@ blockquote.bg-gray {
     width: 18rem;
     margin-top: 32px;
 }
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+  }
+  .mt-3, .my-3 {
+    margin-top: 1rem !important;
+  }
 .social{
     display: flex;
     flex-wrap: wrap;
@@ -104,12 +118,37 @@ blockquote.bg-gray {
 #circle {
     width: 25px;
     height: 25px;
-    -webkit-border-radius: 19.38px;
+    -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     border-radius: 25px;
     background: #505050;
     color: #FFFFFF;
 }
-
-
+.skills{
+    padding: 32px;
+}
+.badge-primary{
+    color: #505050;
+    background-color: #FFFFFF;
+}
+.list-group-item{
+    border: none;
+}
+.navigation{
+    border-bottom: 1px solid #D3D8DE;
+}
+.balance{
+    color: #8F8F8F;
+}
+.connections{
+    color: #FFFFFF;
+    background-color: #E33939;
+}
+.events{
+    color: #FFFFFF;
+    background-color: #47B091;
+}
+.wrap{
+    display: block;
+}
 
