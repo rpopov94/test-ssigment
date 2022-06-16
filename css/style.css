@@ -198,5 +198,37 @@ blockquote.bg-gray {
     }
 }
 .active{
-    background-color: #654321;;
+    background-color: #F1F1F1;
+}
+.content{
+    margin:0 auto;
+    margin-top: 32px;
+    background-color: #FFFFFF;
+    width: 1376px;
+    height: 568px;
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-container iframe{
+  margin: 19px 32px 32px 32px;
+  height:468px;
+  width:1312px;
+  position:absolute;
+}
+.slug{
+    padding-top: 18px;
+    margin-left:32px;
+    font-size: 16px;
+    color: #505050;
+}
+.timer{
+    margin:0 auto;
+    margin-top: 32px;
+    background-color: #FFFFFF;
+    width: 1376px;
+    height: 123px;
 }
