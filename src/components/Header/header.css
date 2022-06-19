@@ -1,0 +1,65 @@
+body{
+    font-family: 'Roboto';
+    font-style: normal;
+    background-color: #F5F5F5;
+  }
+  a{
+    padding-left: 12px;
+  }
+  .title{
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color:#F1F1F1;
+  }
+  .card-body {
+    max-width: 264px;
+    max-height: 296px;
+  }
+  .container{
+    max-width: 1440px;
+  }
+  .home{
+    font-size:18px;
+  }
+  .navbar{
+    max-height: 64px;
+  }
+  .main-breadcrumb{
+    max-height: 40px;
+  }
+  .bg{
+    background-color: #FFFFFF;
+  }
+  a > .active{
+    background-color: #F1F1F1;
+  }
+  .bg-light{
+    background-color: #FAFAFA;
+  }
+  .nav-link{
+    font-size: 14px;
+  }
+  .image>li>a> p{
+    text-align: center;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 10px;
+    text-align: center;
+  }
+  p {
+    margin: 0 0 10px;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .nav > li > a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+  }
