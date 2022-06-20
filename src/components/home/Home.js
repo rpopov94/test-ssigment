@@ -5,8 +5,7 @@ import eye from '../../images/eye.svg';
 import clock from '../../images/clock.svg';
 import down from '../../images/down.svg';
 import user from '../../images/user.png';
-import tg from '../../images/telegram.png';
-import twitter from '../../images/twitter.png';
+import twitter from '../../images/twitter.svg';
 import navigation from '../../images/Unionnavigation.png';
 import balance from '../../images/balance.svg';
 import connectionns from '../../images/connectionns.svg';
@@ -14,6 +13,8 @@ import friend from '../../images/friends.svg';
 import events from '../../images/events.svg';
 import settings from '../../images/settings.png';
 import iconUser from '../../images/user.svg';
+import telegram from '../../images/telegram.svg';
+import hh from '../../images/hh.ru__min.svg'
 
 
 
@@ -21,6 +22,7 @@ class Home extends Component {
     render() {
       return (
         <div className='container'>
+          <div className='wr'>
           <div className="row">
 			      <div className="col">
                 <div className="wrapper">
@@ -70,9 +72,9 @@ class Home extends Component {
                         <h4>Hanna Dorman</h4>
                         <p className="text-secondary mb-1">UX/UI designer</p>
                         <div className="social social_share">
-                          <a href="/" className="social__item"><div id="circle"><img src={tg} width="19.38.px" height="19.38px" alt="tg"/></div></a>
-                          <a href="/" className="social__item"><div id="circle">hh</div></a>
-                          <a href="/" className="social__item"><div id="circle"><img src={twitter} width="19.38.px" height="19.38px" alt="twitter"/></div></a>
+                          <a href="/" className="social__item"><img src={telegram} width="19.38.px*2" height="19.38px" alt="tg"/></a>
+                          <a href="#" class="social__item"><img src={hh} width="19.38.px*2" height="19.38px" alt="tg"/></a>
+                          <a href="/" className="social__item"><img src={twitter} width="19.38.px" height="19.38px" alt="twitter"/></a>
                         </div>
                       </div>
                     </div>
@@ -140,20 +142,12 @@ class Home extends Component {
                         </span>
                     </li>
                     <li className="list-group-item d-flex justify-content-between align-items-center">
-                      <form className="formwrapper">
-                        {/* <div class="form-group">
-                          Enter your message...
-                        </div>
-                        <div class="form-group">
-                            Save
-                        </div> */}
-                      </form>
                       <form>
-                      <div class="form-group">
-                        <label>
-                          <input type="text" class="form-control form" name="name"  value="Enter your message..."/>
-                        </label>
-                        </div>
+                        <div class="form-group">
+                          <label>
+                            <input type="text" class="form-control form" name="name"  value="Enter your message..."/>
+                          </label>
+                          </div>
                           <input type="submit" class="btn btn-primary btn" value="Save" />
                       </form>
                     </li>
@@ -161,6 +155,7 @@ class Home extends Component {
                 </div> 
               </div>
             </div>
+          </div>
           </div>
         </div> 
     );

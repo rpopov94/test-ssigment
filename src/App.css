@@ -1,10 +1,11 @@
 body{
   font-family: 'Roboto';
   font-style: normal;
-  background-color: #F5F5F5;
+  background-color: #f0f0f0;
 }
 a{
   padding-left: 12px;
+  color: #505050;
 }
 .title{
   position: relative;
@@ -12,6 +13,9 @@ a{
   font-weight: 400;
   font-size: 16px;
   color:#F1F1F1;
+}
+.bold{
+  font-weight: bold;
 }
 .card-body {
   max-width: 264px;
@@ -32,6 +36,9 @@ a{
 .bg{
   background-color: #FFFFFF;
 }
+.navbarH{
+  padding-top: 11px;
+}
 .bg-light{
   background-color: #FAFAFA;
 }
@@ -46,6 +53,10 @@ a{
   padding-bottom: 10px;
   line-height: 10px;
   text-align: center;
+}
+.infoNav{
+  margin-right: 10px;
+  border-color: #505050;
 }
 .form{
   height:88px;
@@ -131,11 +142,11 @@ blockquote.bg-gray {
   margin-bottom: 1rem;
 }
 #circle {
-  width: 25px;
-  height: 25px;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+  width: 19px;
+  height: 19px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
   background: #505050;
   color: #FFFFFF;
 }
@@ -253,4 +264,9 @@ position:absolute;
   order: 0;
   flex-grow: 0;
   margin-left:32px;
+}
+.wr{
+  max-width: 1440px;
+  background-color: #F5F5F5;
+  max-height: auto;
 }

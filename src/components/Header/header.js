@@ -1,4 +1,5 @@
 import React from 'react';
+import {NavLink} from 'react-router-dom';
 import back from '../../images/back.png';
 import statistics from '../../images/Statistics.png';
 import map from '../../images/map.png';
@@ -7,17 +8,19 @@ import activity from '../../images/activity.svg';
 import block from '../../images/block.png';
 import settings from '../../images/settings.png';
 import friends from '../../images/friends.svg';
+import note from '../../images/note.svg';
+import photos from '../../images/Photos.svg';
 
 
 function Head() {
     return (
         <div className='container'>
             {/* <p class="title">Главная</p> */}
-            <nav className="navbar navbar-expand-lg navbar-light bg">
+            <nav className="navbar navbar-expand-lg navbar-light bg navbarH">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item user_page">
                         <img src={back} width="13.34px" height="11.6px" alt=""/>
-                        <a className="navbar-brand home" href="/">User pages - Profile</a>
+                        <a className="navbar-brand home" href="/"><span class="bold">User pages</span> - Profile</a>
                     </li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">
@@ -56,46 +59,43 @@ function Head() {
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item activity">
-                        <a className="nav-link" href="/">
-                            <img src={activity} width="13.34" height="11.6" alt=""/>
-                            Activity</a>
+                        <NavLink lassName="nav-link" to='/'>
+                            <img src={activity} class="infoNav" width="13.34" height="11.6" alt=""/>
+                            Activity
+                        </NavLink>
                     </li>
                     <li className="nav-item map">
-                        <a className="nav-link mb-0" href="/map">
-                            <img src={map} width="11.58" height="14.92" alt=""/>
-                            Map</a>
+                        <NavLink lassName="nav-link" to='/map'>
+                            <img src={map} class="infoNav" width="11.58" height="14.92" alt=""/>
+                            Map
+                        </NavLink>
                     </li>
                     <li className="nav-item time">
-                        <a className="nav-link" href="/time">
-                            <img src={time} width="15px" height="15px" alt=""/>
-                            Time</a>
+                        <NavLink lassName="nav-link" to='/time'>
+                            <img src={time} class="infoNav" width="15px" height="15px" alt=""/>
+                            Time
+                        </NavLink>
                     </li>
                 </ul>
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <a className="nav-link" href="/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-file-earmark-text" viewBox="0 0 16 16">
-                                <path d="M5.5 7a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zM5 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm0 2a.5.5 0 0 1 .5-.5h2a.5.5 0 0 1 0 1h-2a.5.5 0 0 1-.5-.5z"/>
-                                <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
-                            </svg>
+                        <img src={note} class='infoNav' width="16.67px" height="15px" alt="f"/>
                         Notes</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/">
-                            <img src={friends} width="13.34px" height="11.6px" alt=""/>
+                            <img src={friends} class='infoNav' width="16.67px" height="15px" alt="f"/>
                             Friends</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-file-earmark-image" viewBox="0 0 16 16">
-                                <path d="M6.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
-                                <path d="M14 14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5V14zM4 1a1 1 0 0 0-1 1v10l2.224-2.224a.5.5 0 0 1 .61-.075L8 11l2.157-3.02a.5.5 0 0 1 .76-.063L13 10V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4z"/>
-                            </svg>
+                            <img src={photos} class='infoNav' width="16.67px" height="15px" alt="f"/>
                             Photos</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="/">
-                            <img src={settings} width="13.34px" height="11.6px" alt=""/>
+                            <img src={settings} width="14.23px" height="14.99px" alt="s"/>
                             </a>
                     </li>
                     <li className="nav-item">
