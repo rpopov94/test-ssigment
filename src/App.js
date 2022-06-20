@@ -8,7 +8,7 @@ import Home from './components/home/Home';
 function App() {
   return (
     <div className="App">
-      <Head/>
+      {/* <Head/> */}
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/time' element={<Timer/>}/>

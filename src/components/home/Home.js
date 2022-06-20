@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Head from '../Header/header';
 import postImage from '../../images/abstract-purple-digital-art-retrowave-wallpaper.png';
 import comented from '../../images/commented.png';
 import eye from '../../images/eye.svg';
@@ -20,6 +21,10 @@ import iconUser from '../../images/user.svg';
 class Home extends Component {
     render() {
       return (
+        <div className='container'>
+          <p class="title">Главная</p>
+        </div>,
+        <Head/>,
         <div className='container'>
           <div className="row">
 			      <div className="col">

@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import Head from '../Header/header';
 
 class Map extends Component {
     render() {
       return (
+        <div className='container'>
+          <p class="title">Карта</p>
+        </div>,
+        <Head/>,
         <div class="content">
           <nav class="navbar navbar-expand-lg navbar-light bg">
               <ul class="navbar-nav mr-auto">
