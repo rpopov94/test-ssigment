@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 class Timer extends Component {
     render() {
       return (
-        
-        <div class="container">
+        <div className='container'>
             <div className='wr'>
             <div class="timer">
                 <nav class="navbar navbar-expand-lg navbar-light">

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState } from 'react';
 
 class Map extends Component {
     render() {
@@ -30,7 +30,8 @@ class Map extends Component {
                     </li>
                 </ul>
                 </nav>
-                <div id="map-container-google-1" class="z-depth-1-half map-container">
+                
+                 <div id="map-container-google-1" class="z-depth-1-half map-container">
                     <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                     allowfullscreen></iframe>
                 </div>
