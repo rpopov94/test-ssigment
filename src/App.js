@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, useParams } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Head from './components/Header/Header'
 import Map from './components/map/Map';
 import Timer from './components/time/Time';
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Head/>
       <Routes>
-        <Route path='/' element={<Home/>}/>
+        <Route expact path='/' element={<Home/>}/>
         <Route path='/time' element={<Timer/>}/>
         <Route path='/map' element={<Map/>}/>
       </Routes>
