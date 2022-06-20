@@ -17,7 +17,7 @@ function Head() {
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item user_page">
                         <img src={back} width="13.34px" height="11.6px" alt=""/>
-                        <a className="navbar-brand home" href="index.html">User pages - Profile</a>
+                        <a className="navbar-brand home" href="/">User pages - Profile</a>
                     </li>
                 </ul>
                 <ul className="nav navbar-nav navbar-right">

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Head from '../Header/header';
 import postImage from '../../images/abstract-purple-digital-art-retrowave-wallpaper.png';
 import comented from '../../images/commented.png';
 import eye from '../../images/eye.svg';
@@ -21,10 +20,6 @@ import iconUser from '../../images/user.svg';
 class Home extends Component {
     render() {
       return (
-        <div className='container'>
-          <p class="title">Главная</p>
-        </div>,
-        <Head/>,
         <div className='container'>
           <div className="row">
 			      <div className="col">
@@ -146,12 +141,20 @@ class Home extends Component {
                     </li>
                     <li className="list-group-item d-flex justify-content-between align-items-center">
                       <form className="formwrapper">
-                        <div class="form-group">
+                        {/* <div class="form-group">
                           Enter your message...
                         </div>
                         <div class="form-group">
                             Save
+                        </div> */}
+                      </form>
+                      <form>
+                      <div class="form-group">
+                        <label>
+                          <input type="text" class="form-control form" name="name"  value="Enter your message..."/>
+                        </label>
                         </div>
+                          <input type="submit" class="btn btn-primary btn" value="Save" />
                       </form>
                     </li>
                   </ul>

@@ -1,13 +1,8 @@
 import React, { Component } from 'react';
-import Head from '../Header/header';
 
 class Timer extends Component {
     render() {
       return (
-        <div className='container'>
-          <p class="title">Time</p>
-        </div>,
-        <Head/>,
         <div class="container">
         <div class="timer">
             <nav class="navbar navbar-expand-lg navbar-light">

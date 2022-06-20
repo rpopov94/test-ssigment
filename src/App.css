@@ -47,6 +47,14 @@ a{
   line-height: 10px;
   text-align: center;
 }
+.form{
+  height:88px;
+  width:232px;
+}
+.btn{
+  height:32px;
+  width:232px;
+}
 p {
   margin: 0 0 10px;
   display: block;
