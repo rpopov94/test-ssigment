@@ -1,8 +1,9 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
+import Loader from '../loader/Loader';
 
-class Map extends Component {
-    render() {
-      return (
+function Map() {
+    const [isLoad, setCount] = useState(1);
+    return (
         <div class="content">
             <div className='wr'>
                 <nav class="navbar navbar-expand-lg navbar-light bg">
@@ -32,13 +33,14 @@ class Map extends Component {
                 </nav>
                 
                  <div id="map-container-google-1" class="z-depth-1-half map-container">
-                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
-                    allowfullscreen></iframe>
+                    {isLoad? <Loader/>:
+                        <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        allowfullscreen></iframe>
+                    }
                 </div>
             </div>
         </div>
       );
-    }
   }
   
 
