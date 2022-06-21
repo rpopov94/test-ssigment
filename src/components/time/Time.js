@@ -1,12 +1,24 @@
-import React, { Component } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 
-class Timer extends Component {
-    render() {
-      return (
-        <div className='container'>
-            <div className='wr'>
-            <div class="timer">
-                <nav class="navbar navbar-expand-lg navbar-light">
+
+function Timer () {
+    const [ count, setCount ] = useState(0);
+    const timerRef = useRef();
+    useEffect(() => {
+        timerRef.current = setInterval(() => {
+            setCount(c => c + 1);
+        }, 1000);
+
+        return () => {
+            clearInterval(timerRef.current);
+        };
+    }, [ timerRef, setCount ]);
+    
+    return (
+      <div className='container'>
+          <div className='wr'>
+          <div class="timer">
+              <nav class="navbar navbar-expand-lg navbar-light">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item user_page">
                             <p class="slug">Timer</p> 
@@ -30,15 +42,16 @@ class Timer extends Component {
                             </svg>
                         </li>
                     </ul>
-                    
+                  
                 </nav>
-                <p id="curTime">00:00:05</p> 
-            </div>
+                <p id="curTime">
+                    {Math.floor(count/3600)}:{Math.floor(count % (60 * 60)/60)}:{count%60}
+                </p> 
+           </div>
         </div>
     </div>
-      );
-    }
-  }
-  
+    );
+}
+
 
 export default Timer;

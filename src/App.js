@@ -11,6 +11,7 @@ function App() {
       <Head/>
       <Routes>
         <Route expact path='/' element={<Home/>}/>
+        <Route expact path='/test-ssigment' element={<Home/>}/>
         <Route path='/time' element={<Timer/>}/>
         <Route path='/map' element={<Map/>}/>
       </Routes>

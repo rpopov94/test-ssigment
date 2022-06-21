@@ -1,15 +1,16 @@
-import React, { useState, Suspense } from 'react';
+import React, { useState, useEffect } from 'react';
 import Loader from '../loader/Loader';
-import axios from 'axios';
 
 function Map() {
-    const bareurl = "https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed";
-    const [isLoading, setIsLoading] = useState(0);
+
+    const [isLoading, setIsLoading] = useState(false);
     useEffect(()=>{
-        axios.get(bareurl).then((res) => {
-            setIsLoading(1);
-        });
+        setIsLoading(true);
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 5000)
     }, []);
+
     return (
         <div class="content">
             <div className='wr'>
