@@ -15,8 +15,7 @@ import photos from '../../images/Photos.svg';
 function Head() {
     return (
         <div className='container'>
-            {/* <p class="title">Главная</p> */}
-            <nav className="navbar navbar-expand-lg navbar-light bg navbarH">
+            <nav className="navbar navbar-expand-lg navbar-light bg">
                 <ul className="navbar-nav mr-auto">
                     <li className="nav-item user_page">
                         <img src={back} width="13.34px" height="11.6px" alt=""/>
