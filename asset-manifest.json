@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/test-ssigment/static/css/main.dcb6d158.css",
-    "main.js": "/test-ssigment/static/js/main.412a006f.js",
-    "static/media/abstract-purple-digital-art-retrowave-wallpaper.png": "/test-ssigment/static/media/abstract-purple-digital-art-retrowave-wallpaper.874c2c926d62cc99a7bf.png",
-    "static/media/user.png": "/test-ssigment/static/media/user.624847de5b6e83e800a3.png",
-    "static/media/balance.svg": "/test-ssigment/static/media/balance.0076db3807236c55a1f970de6173ee28.svg",
-    "static/media/connectionns.svg": "/test-ssigment/static/media/connectionns.937263a875b1364588a6564db9259b4b.svg",
-    "static/media/friends.svg": "/test-ssigment/static/media/friends.3855a7bdf3be3fd911717c393b4df520.svg",
-    "static/media/events.svg": "/test-ssigment/static/media/events.8d4091a16865de692c64397bd2a7357c.svg",
-    "static/media/twitter.svg": "/test-ssigment/static/media/twitter.f872fe0e56e44dcc9032c18f783c03b9.svg",
-    "static/media/hh.ru__min.svg": "/test-ssigment/static/media/hh.ru__min.418aa2256858165edd5c22edd491d3cd.svg",
-    "static/media/eye.svg": "/test-ssigment/static/media/eye.d48693e8bd66a3e57fda66a897713890.svg",
-    "static/media/activity.svg": "/test-ssigment/static/media/activity.ddd0ca44ce6923cae641555c925ac632.svg",
-    "static/media/user.svg": "/test-ssigment/static/media/user.8888b8b2ac52662bdb672dcbb2f97d6a.svg",
-    "static/media/preloader.svg": "/test-ssigment/static/media/preloader.e9398f7ab65c30518dfe16894a8f7409.svg",
-    "index.html": "/test-ssigment/index.html",
-    "static/media/telegram.svg": "/test-ssigment/static/media/telegram.773c1bd3c7b7b535a83b8029a3bca3d7.svg",
-    "static/media/clock.svg": "/test-ssigment/static/media/clock.d456dd379df8a3d8ec7ad04931abd36f.svg",
-    "static/media/down.svg": "/test-ssigment/static/media/down.d09cda802412b95311d8c3a63cddfe5f.svg",
-    "static/media/note.svg": "/test-ssigment/static/media/note.430f5e8fe605b6136473b21e45b95630.svg",
-    "static/media/Photos.svg": "/test-ssigment/static/media/Photos.bb81144b5cc8c15ae4bb8088b891200a.svg",
-    "main.dcb6d158.css.map": "/test-ssigment/static/css/main.dcb6d158.css.map",
-    "main.412a006f.js.map": "/test-ssigment/static/js/main.412a006f.js.map"
+    "main.css": "/static/css/main.dcb6d158.css",
+    "main.js": "/static/js/main.e0b45ebc.js",
+    "static/media/abstract-purple-digital-art-retrowave-wallpaper.png": "/static/media/abstract-purple-digital-art-retrowave-wallpaper.874c2c926d62cc99a7bf.png",
+    "static/media/user.png": "/static/media/user.624847de5b6e83e800a3.png",
+    "static/media/balance.svg": "/static/media/balance.0076db3807236c55a1f970de6173ee28.svg",
+    "static/media/connectionns.svg": "/static/media/connectionns.937263a875b1364588a6564db9259b4b.svg",
+    "static/media/friends.svg": "/static/media/friends.3855a7bdf3be3fd911717c393b4df520.svg",
+    "static/media/events.svg": "/static/media/events.8d4091a16865de692c64397bd2a7357c.svg",
+    "static/media/twitter.svg": "/static/media/twitter.f872fe0e56e44dcc9032c18f783c03b9.svg",
+    "static/media/hh.ru__min.svg": "/static/media/hh.ru__min.418aa2256858165edd5c22edd491d3cd.svg",
+    "static/media/eye.svg": "/static/media/eye.d48693e8bd66a3e57fda66a897713890.svg",
+    "static/media/activity.svg": "/static/media/activity.ddd0ca44ce6923cae641555c925ac632.svg",
+    "static/media/user.svg": "/static/media/user.8888b8b2ac52662bdb672dcbb2f97d6a.svg",
+    "static/media/preloader.svg": "/static/media/preloader.e9398f7ab65c30518dfe16894a8f7409.svg",
+    "index.html": "/index.html",
+    "static/media/telegram.svg": "/static/media/telegram.773c1bd3c7b7b535a83b8029a3bca3d7.svg",
+    "static/media/clock.svg": "/static/media/clock.d456dd379df8a3d8ec7ad04931abd36f.svg",
+    "static/media/down.svg": "/static/media/down.d09cda802412b95311d8c3a63cddfe5f.svg",
+    "static/media/note.svg": "/static/media/note.430f5e8fe605b6136473b21e45b95630.svg",
+    "static/media/Photos.svg": "/static/media/Photos.bb81144b5cc8c15ae4bb8088b891200a.svg",
+    "main.dcb6d158.css.map": "/static/css/main.dcb6d158.css.map",
+    "main.e0b45ebc.js.map": "/static/js/main.e0b45ebc.js.map"
   },
   "entrypoints": [
     "static/css/main.dcb6d158.css",
-    "static/js/main.412a006f.js"
+    "static/js/main.e0b45ebc.js"
   ]
 }
