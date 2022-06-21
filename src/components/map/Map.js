@@ -1,7 +1,15 @@
 import React, { useState, Suspense } from 'react';
 import Loader from '../loader/Loader';
+import axios from 'axios';
 
 function Map() {
+    const bareurl = "https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed";
+    const [isLoading, setIsLoading] = useState(0);
+    useEffect(()=>{
+        axios.get(bareurl).then((res) => {
+            setIsLoading(1);
+        });
+    }, []);
     return (
         <div class="content">
             <div className='wr'>
@@ -32,10 +40,11 @@ function Map() {
                 </nav>
                 
                  <div id="map-container-google-1" class="z-depth-1-half map-container">
-                    <Suspense fallback={<Loader/>}>
+                    {
+                        isLoading? <Loader/>:
                         <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
                             allowfullscreen></iframe>    
-                    </Suspense> 
+                    } 
                 </div>
             </div>
         </div>
