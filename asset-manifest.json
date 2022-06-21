@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/test-assigment/static/css/main.72009439.css",
-    "main.js": "/test-assigment/static/js/main.796d088c.js",
+    "main.js": "/test-assigment/static/js/main.5ae99afb.js",
     "static/media/abstract-purple-digital-art-retrowave-wallpaper.png": "/test-assigment/static/media/abstract-purple-digital-art-retrowave-wallpaper.874c2c926d62cc99a7bf.png",
     "static/media/user.png": "/test-assigment/static/media/user.624847de5b6e83e800a3.png",
     "static/media/balance.svg": "/test-assigment/static/media/balance.0076db3807236c55a1f970de6173ee28.svg",
@@ -24,10 +24,10 @@
     "static/media/note.svg": "/test-assigment/static/media/note.430f5e8fe605b6136473b21e45b95630.svg",
     "static/media/Photos.svg": "/test-assigment/static/media/Photos.bb81144b5cc8c15ae4bb8088b891200a.svg",
     "main.72009439.css.map": "/test-assigment/static/css/main.72009439.css.map",
-    "main.796d088c.js.map": "/test-assigment/static/js/main.796d088c.js.map"
+    "main.5ae99afb.js.map": "/test-assigment/static/js/main.5ae99afb.js.map"
   },
   "entrypoints": [
     "static/css/main.72009439.css",
-    "static/js/main.796d088c.js"
+    "static/js/main.5ae99afb.js"
   ]
 }
