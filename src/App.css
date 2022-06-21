@@ -7,6 +7,10 @@ a{
   padding-left: 12px;
   color: #505050;
 }
+.a{
+  font-size: 14px;
+  color: #505050;
+}
 .title{
   position: relative;
   font-style: normal;
