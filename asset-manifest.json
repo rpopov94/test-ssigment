@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/test-ssigment/static/css/main.b7d9c6ef.css",
+    "main.css": "/test-ssigment/static/css/main.766b9b4c.css",
     "main.js": "/test-ssigment/static/js/main.573dd1f0.js",
     "static/media/abstract-purple-digital-art-retrowave-wallpaper.png": "/test-ssigment/static/media/abstract-purple-digital-art-retrowave-wallpaper.874c2c926d62cc99a7bf.png",
     "static/media/user.png": "/test-ssigment/static/media/user.624847de5b6e83e800a3.png",
@@ -23,11 +23,11 @@
     "static/media/down.svg": "/test-ssigment/static/media/down.d09cda802412b95311d8c3a63cddfe5f.svg",
     "static/media/note.svg": "/test-ssigment/static/media/note.430f5e8fe605b6136473b21e45b95630.svg",
     "static/media/Photos.svg": "/test-ssigment/static/media/Photos.bb81144b5cc8c15ae4bb8088b891200a.svg",
-    "main.b7d9c6ef.css.map": "/test-ssigment/static/css/main.b7d9c6ef.css.map",
+    "main.766b9b4c.css.map": "/test-ssigment/static/css/main.766b9b4c.css.map",
     "main.573dd1f0.js.map": "/test-ssigment/static/js/main.573dd1f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.b7d9c6ef.css",
+    "static/css/main.766b9b4c.css",
     "static/js/main.573dd1f0.js"
   ]
 }
