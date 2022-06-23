@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import postImage from '../../images/abstract-purple-digital-art-retrowave-wallpaper.png';
 import comented from '../../images/commented.png';
 import eye from '../../images/eye.svg';
@@ -18,8 +18,7 @@ import hh from '../../images/hh.ru__min.svg'
 
 
 
-class Home extends Component {
-    render() {
+function Home() {
       return (
         <div className='container'>
           <div className='wr'>
@@ -160,6 +159,5 @@ class Home extends Component {
         </div> 
     );
   }
-}
-  
+ 
   export default Home;

@@ -1,0 +1,201 @@
+@media (max-width: 1024px) {
+  button{
+    display: block;
+  }
+  .posImage{
+      padding: 56px 32px 0 32px;
+      width:712px;
+      height:300px;
+  }
+  .adapter{
+      width: 650px;
+  }
+  .bg{
+    display: none;
+  }
+  .toggle {
+      position: absolute;
+      top: 32.5px;
+      right: 20px;
+      z-index: 99;
+      transform: translateY(-50%);
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .toggle > * {
+      width: 80%;
+      height: 2px;
+      background: rgb(87, 85, 85);
+      margin: 3px 0;
+    }
+    .nav-item{
+      display: none;
+    }
+    .infoNav{
+      margin-top: 10px;
+    }
+
+}
+@media (max-width: 900px) {
+  button{
+    display: block;
+  }
+  .posImage{
+      padding: 45px 25px 0 25px;
+      width:712px;
+      height:300px;
+  }
+  .adapter{
+      width: 612px;
+  }
+  .nav-item{
+    display: none;
+  }
+  .toggle {
+    position: absolute;
+    top: 32.5px;
+    right: 20px;
+    z-index: 99;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggle > * {
+    width: 80%;
+    height: 2px;
+    background: rgb(48, 46, 46);
+    margin: 3px 0;
+  }
+}
+@media (max-width: 600px) {
+  button{
+    display: block;
+  }
+  .posImage{
+      padding: 56px 32px 0 32px;
+      width:512px;
+      height:250px;
+  }
+  .adapter{
+      width: 512px;
+  }
+  .nav-item{
+    display: none;
+  }
+  .toggle {
+    position: absolute;
+    top: 32.5px;
+    right: 20px;
+    z-index: 99;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggle > * {
+    width: 80%;
+    height: 2px;
+    background: rgb(48, 46, 46);
+    margin: 3px 0;
+  }
+}
+@media (max-width: 450px) {
+  button{
+    display: block;
+  }
+  .posImage{
+      padding: 20px 10px 0 20px;
+      width:150px;
+      height:100px;
+  }
+  .adapter{
+      width: 312px;
+  }
+  .bg{
+    display: none;
+  }
+  .toggle {
+    position: absolute;
+    top: 32.5px;
+    right: 20px;
+    z-index: 99;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggle > * {
+    width: 80%;
+    height: 2px;
+    background: rgb(48, 46, 46);
+    margin: 3px 0;
+  }
+}
+@media (max-width: 320px) {
+  button{
+    display: block;
+    position: fixed;
+    z-index: 9;
+  }
+  .posImage{
+      padding: 5px 3px 0 5px;
+      width:150px;
+      height:100px;
+  }
+  .adapter{
+      width: 212px;
+  }
+  .nav-item{
+    display: none;
+  }
+  .toggle {
+    position: absolute;
+    top: 32.5px;
+    right: 20px;
+    z-index: 99;
+    transform: translateY(-50%);
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggle > * {
+    width: 80%;
+    height: 2px;
+    background: rgb(48, 46, 46);
+    margin: 3px 0;
+  }
+}
+  
+.hidden{
+  display: none;
+}
+button{
+  display: none;
+  margin: 0px -30px 10px 10px;
+}
+.border{
+  border-top: 1px gray solid ;
+  border-bottom: 1px gray bottom ;
+}

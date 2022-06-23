@@ -37,9 +37,6 @@ a{
 .main-breadcrumb{
   max-height: 40px;
 }
-.bg{
-  background-color: #FFFFFF;
-}
 .navbarH{
   padding-top: 11px;
   padding-bottom: 8px;
@@ -274,4 +271,7 @@ position:absolute;
   max-width: 1440px;
   background-color: #F5F5F5;
   max-height: auto;
+}
+.bg-light {
+  background-color: #FAFAFA !important;
 }
