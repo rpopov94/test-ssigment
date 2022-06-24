@@ -15,7 +15,7 @@ import invoices from '../../images/Invoices.svg'
 import schedule from '../../images/Schedule.svg'
 
 
-function Head() {
+function Head(props) {
     return (
         <div className='container'>
             <nav className="navbar navbar-expand-lg navbar-light bg" id="navbar-vertical">

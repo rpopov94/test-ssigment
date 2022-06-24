@@ -1,19 +1,7 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
-
-function Timer () {
-    const [ count, setCount ] = useState(0);
-    const timerRef = useRef();
-    useEffect(() => {
-        timerRef.current = setInterval(() => {
-            setCount(c => c + 1);
-        }, 1000);
-
-        return () => {
-            clearInterval(timerRef.current);
-        };
-    }, [ timerRef, setCount ]);
-    
+function Timer (props) {
+   console.log(props);
     return (
       <div className='container'>
           <div className='wr'>
@@ -45,7 +33,7 @@ function Timer () {
                   
                 </nav>
                 <p id="curTime">
-                    {Math.floor(count/3600)}:{Math.floor(count % (60 * 60)/60)}:{count%60}
+                    {Math.floor(props.time / 3600)}:{Math.floor(props.time % (60 * 60)/60)}:{props.time % 60}
                 </p> 
            </div>
         </div>
