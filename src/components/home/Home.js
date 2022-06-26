@@ -15,10 +15,10 @@ import settings from '../../images/settings.png';
 import iconUser from '../../images/user.svg';
 import telegram from '../../images/telegram.svg';
 import hh from '../../images/hh.ru__min.svg'
-
-
+import { useNavigate } from "react-router-dom";
 
 function Home() {
+
       return (
         <div className='container'>
           <div className='wr'>

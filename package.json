@@ -1,8 +1,8 @@
 {
-  "name": "test-ssigment",
+  "name": "ssigment",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rpopov94.github.io/test-ssigment",
+  "homepage": "https://rpopov94.github.io/test-ssigment/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -20,7 +20,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && shx cp build/index.html build/404.html",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -43,6 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "shx": "^0.3.4"
   }
 }
