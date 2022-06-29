@@ -155,45 +155,16 @@
     position: fixed;
     z-index: 9;
   }
-  .posImage{
-      padding: 5px 3px 0 5px;
-      width:150px;
-      height:100px;
-  }
   .adapter{
       width: 212px;
   }
   .nav-item{
     display: none;
   }
-  .toggle {
-    position: absolute;
-    top: 32.5px;
-    right: 20px;
-    z-index: 99;
-    transform: translateY(-50%);
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .toggle > * {
-    width: 80%;
-    height: 2px;
-    background: rgb(48, 46, 46);
-    margin: 3px 0;
-  }
 }
   
 .hidden{
   display: none;
-}
-button{
-  display: none;
-  margin: 0px -30px 10px 10px;
 }
 .border{
   border-top: 1px gray solid ;

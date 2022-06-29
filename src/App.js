@@ -1,5 +1,5 @@
-import { Routes, Route, Switch } from "react-router-dom";
-import React, { useState, useRef, useEffect } from 'react';
+import { Routes, Route } from "react-router-dom";
+import React, { useState, useEffect } from 'react';
 import Head from './components/Header/Header'
 import Map from './components/map/Map';
 import Timer from './components/time/Time';
@@ -9,17 +9,11 @@ import './App.css';
 
 function App() {
   const [ count, setCount ] = useState(0);
-  const timerRef = useRef();
   useEffect(() => {
-      timerRef.current = setInterval(() => {
+      setInterval(() => {
           setCount(c => c + 1);
       }, 1000);
-
-      return () => {
-          clearInterval(timerRef.current);
-      };
-  }, [ timerRef, setCount ]);
-
+  }, [ setCount ]);
 
   return (
     <div className="App">

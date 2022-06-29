@@ -94,63 +94,7 @@ function Head(props) {
                         </a>
                     </li>
                 </ul>
-                <button class="toggle" id="nav-btn">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </button>
             </nav>
-            <div class="panel-group hidden navbar-toggler" id="flag">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <NavLink  to='/'>
-                            <img src={activity} class="infoNav" width="15px" height="15px" alt=""/>
-                            Activity
-                        </NavLink>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <NavLink  to='/map'>
-                            <img src={map} class="infoNav" width="15px" height="15px" alt=""/>
-                            Map
-                        </NavLink>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <NavLink to='/time'>
-                            <img src={time} class="infoNav" width="15px" height="15px" alt=""/>
-                            Time
-                        </NavLink>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <NavLink  to='statistics'>
-                             <img class="infoNav" width="15px" height="15px" src={statistics} alt=""/>
-                             Statistics
-                        </NavLink>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <NavLink to='invoices'>
-                            <img src={invoices}  width="15px" height="15px" alt="i"/>
-                            Invoices
-                        </NavLink>
-                    </div>
-                </div>
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <NavLink  to='schedule'>
-                            <img src={schedule} width="15px" height="15px" alt="sh"/>
-                            Schedule
-                        </NavLink>
-                    </div>
-                </div>
-            </div>
-            
         </div>
     );
 }
