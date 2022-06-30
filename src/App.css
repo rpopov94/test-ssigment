@@ -1,0 +1,277 @@
+body{
+  font-family: 'Roboto';
+  font-style: normal;
+  background-color: #f0f0f0;
+}
+a{
+  padding-left: 12px;
+  color: #505050;
+}
+.a{
+  font-size: 14px;
+  color: #505050;
+}
+.title{
+  position: relative;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color:#F1F1F1;
+}
+.bold{
+  font-weight: bold;
+}
+.card-body {
+  max-width: 264px;
+  max-height: 296px;
+}
+.container{
+  max-width: 1440px;
+}
+.home{
+  font-size:18px;
+}
+.navbar{
+  max-height: 64px;
+}
+.main-breadcrumb{
+  max-height: 40px;
+}
+.navbarH{
+  padding-top: 11px;
+  padding-bottom: 8px;
+}
+.bg-light{
+  background-color: #FAFAFA;
+}
+.nav-link{
+  font-size: 14px;
+}
+.image>li>a> p{
+  text-align: center;
+}
+.navbar-nav > li > a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 10px;
+  text-align: center;
+}
+.infoNav{
+  margin-right: 10px;
+  border-color: #505050;
+}
+.form{
+  height:88px;
+  width:232px;
+}
+.btn{
+  height:32px;
+  width:232px;
+}
+p {
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.wrapper{
+  padding: 32px 0 0 32px;
+  background-color: #F5F5F5;
+}
+.post{
+  background-color: #ffffff;
+  color: #505050;
+  margin-bottom: 32px;
+}
+.posImage{
+  padding: 56px 32px 0 32px;
+  width:1016px;
+  height:424px;
+}
+p.user{
+  font-size: 14px;
+  line-height: 16px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+blockquote.bg-gray {
+  border-left: 2px solid #D3D8DE;
+  color:#505050;
+  padding-left: 32px;
+}
+.description{
+  padding-left: 32px;
+}
+.text{
+  padding-left: 12px;
+}
+.list-inline-item{
+  padding-right: 73px;
+}
+[class^="social"]{
+  padding-left: 10px;
+}
+.card{
+  width: 18rem;
+  margin-top: 32px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+}
+.mt-3, .my-3 {
+  margin-top: 1rem !important;
+}
+.social{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+#circle {
+  width: 19px;
+  height: 19px;
+  -webkit-border-radius: 19px;
+  -moz-border-radius: 19px;
+  border-radius: 19px;
+  background: #505050;
+  color: #FFFFFF;
+}
+.skills{
+  padding: 32px;
+}
+.badge-primary{
+  color: #505050;
+  background-color: #FFFFFF;
+}
+.list-group-item{
+  border: none;
+  padding: 16px 16px;
+  font-size: 14px;
+}
+.navigation{
+  border-bottom: 1px solid #D3D8DE;
+}
+.balance{
+  color: #8F8F8F;
+}
+.connections{
+  color: #FFFFFF;
+  background-color: #E33939;
+}
+.events{
+  color: #FFFFFF;
+  background-color: #47B091;
+}
+.wrap{
+  display: block;
+}
+.info{
+  margin-right: 18px;
+}
+.formwrapper{
+  margin-left: auto;
+  margin-right: auto;
+}
+.postelements{
+  height: 56px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 16px 16px;
+  font-size: 14px;
+}
+@media (max-width: 900px) {
+  .posImage{
+      padding: 56px 32px 0 32px;
+      width:712px;
+      height:300px;
+  }
+  .adapter{
+      width: 712px;
+  }
+}
+@media (max-width: 600px) {
+  .posImage{
+      padding: 56px 32px 0 32px;
+      width:512px;
+      height:250px;
+  }
+  .adapter{
+      width: 512px;
+  }
+}
+.active{
+  background-color: #F1F1F1;
+}
+.content{
+  margin:0 auto;
+  margin-top: 32px;
+  background-color: #FFFFFF;
+  width: 1376px;
+  height: 568px;
+}
+.map-container{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+.map-container iframe{
+margin: 19px 32px 32px 32px;
+height:468px;
+width:1312px;
+position:absolute;
+}
+.slug{
+  margin-top: 18px;
+  margin-left:16px;
+  font-size: 16px;
+  color: #505050;
+}
+.timer{
+  margin:0 auto;
+  margin-top: 32px;
+  width: 1376px;
+  height: 123px;
+  background-color: #FFFFFF;
+}
+#curTime{
+  width: 62px;
+  height: 19px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #505050;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left:32px;
+}
+.wr{
+  max-width: 1440px;
+  background-color: #F5F5F5;
+  max-height: auto;
+}
+.bg-light {
+  background-color: #FAFAFA !important;
+}
